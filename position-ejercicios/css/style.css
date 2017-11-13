@@ -1,0 +1,73 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.red,
+.blue,
+.green{
+  position: static;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+.red,
+.redb,
+.redc,
+.redd{
+  background: red;
+}
+
+.blue,
+.blueb,
+.bluec,
+.blued{
+  background: blue;
+}
+
+.green,
+.greenb,
+.greenc,
+.greend{
+  background: green;
+}
+
+.redb,
+.blueb,
+.greenb{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+.redc,
+.bluec,
+.greenc{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+.bluec{
+  left: 200px;
+}
+
+.redd,
+.blued,
+.greend{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+
+.blued{
+  left: 200px;
+}
+
+.greend{
+  top: 200px;
+}
